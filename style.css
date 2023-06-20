@@ -1,0 +1,57 @@
+h1,h2,h3,h4,h5,h6,p, a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(240, 238, 230) !important;
+
+}
+
+.nav-custom{
+    background: rgb(242, 242, 242);
+}
+
+.bg-property{
+    background-size: cover;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/022/903/424/large_2x/ai-generative-3d-modern-luxury-real-estate-house-for-sale-and-rent-luxury-property-concept-ai-generated-artwork-free-photo.jpg);
+    height: 100vh;
+}
+
+.white-custom{
+    color: rgb(240, 238, 230) !important;
+}
+
+.title{
+    color: rgb(240, 238, 230);
+    border-radius: 15px;
+    padding: 5px;
+    text-shadow: 2px 2px 4px#000000;
+}
+
+.section1{
+    height: auto;
+}
+
+.box1{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 40px;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.box1:hover{
+    transform: scale(1.05);
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.advantages{
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #873921b5 0%, #f2a65a 74%);
+    border-radius: 15px;
+    width: 100px;
+    height: 10px;
+}
