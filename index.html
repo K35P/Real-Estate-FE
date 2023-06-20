@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/your/charts.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
   </head>
   <body>
 
@@ -28,6 +30,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#properties">Properties</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#competitive">Competitive</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -38,6 +43,7 @@
       <div class="container-fluid bg-property">
         <div class="row h-100">
             <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+              <i class="fa-solid fa-building fa-4x title"></i>
                 <h1 class="text-center title display-1 mb-0 montserrat">Real Estate</h1>
                 <p class="title mt-0">Luxury Properties with Modern Perspective</p>
             </div>
@@ -45,12 +51,12 @@
       </div>
       <!-- Header end -->
 
-      <!-- Section 1 -->
+      <!-- Advantages 1 -->
       <div class="container section1 my-5" id="advantages">
         <div class="row justify-content-center align-items-center text-center">
 
             <div class="col-12 d-flex flex-column w-100 justify-content-center">
-                <p class="text-center fw-bold display-6">Our Advantages</p>
+                <p class="text-center fw-bold display-6">Our Advantages <i class="fa-solid fa-star"></i></p>
             </div>
             <div class="advantages my-3"></div>
 
@@ -80,50 +86,106 @@
             
         </div>
       </div>
-      <!-- Section 1 end -->
+      <!-- Advantages end -->
 
-      <!-- Section 2 -->
-      <div class="container section1 my-5" id="properties">
+      <!-- Properties -->
+      <div class="container">
         <div class="row justify-content-center align-items-center">
-            <div class="col-12 d-flex flex-column mt-5 w-100 justify-content-center">
-                <p class="text-center fw-bold display-6">Our Properties</p>
-            </div>
-            <div class="advantages my-3"></div>
-            <div class="col-12 col-md-8">
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./media/a4.jpeg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./media/a5.avif" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./media/a6.jpeg" class="d-block w-100" alt="...">
-                      </div>
+          <div class="col-12 d-flex flex-column w-100 justify-content-center">
+            <p class="text-center fw-bold display-6" id="properties">Our Properties <i class="fa-solid fa-sign-hanging"></i></p>
+        </div>
 
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
+        <div class="advantages my-3"></div>
+
+          <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center align-items-center my-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./media/a4.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title fw-bold">Lorem Ipsum</h2>
+                <p class="card-text" style="font-size: 20px;"><i class="fa-solid fa-border-none"></i>  300m2</p>
+                <p class="card-text" style="font-size: 20px;"><i class="fa-solid fa-bed"></i>  4 Bedrooms</p>
+                <p class="card-text" style="font-size: 20px;"><i class="fa-solid fa-toilet"></i>  2 Bathrooms</p>
+                
+              </div>
             </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center align-items-center my-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./media/a5.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title fw-bold">Lorem Ipsum</h2>
+                <p class="card-text" style="font-size: 20px;"><i class="fa-solid fa-border-none"></i>  180m2</p>
+                <p class="card-text" style="font-size: 20px;"><i class="fa-solid fa-bed"></i>  3 Bedrooms</p>
+                <p class="card-text" style="font-size: 20px;"><i class="fa-solid fa-toilet"></i>  2 Bathrooms</p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center align-items-center my-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./media/a6.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title fw-bold">Lorem Ipsum</h2>
+                <p class="card-text" style="font-size: 20px;"><i class="fa-solid fa-border-none"></i>  420m2</p>
+                <p class="card-text" style="font-size: 20px;"><i class="fa-solid fa-bed"></i>  6 Bedrooms</p>
+                <p class="card-text" style="font-size: 20px;"><i class="fa-solid fa-toilet"></i>  4 Bathrooms</p>
+                
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-      <!-- Section 2 end -->
+      <!-- Properties end -->
 
-      <!-- Section 3 -->
+      <!-- Data -->
+      <div class="container data-custom" id="competitive">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-12 col-md-6 h-100">
+            <table class="charts-css column">
+
+              <caption> Front End Developer Salary </caption>
+            
+              <tbody>
+                <tr>
+                  <th scope="row"> Asia </th>
+                  <td style="--size: calc( 20 / 100 );"> <span class="data">  </span> </td>
+                  <td style="--size: calc( 30 / 100 );"> <span class="data">  </span> </td>
+                  <td style="--size: calc( 40 / 100 );"> <span class="data">  </span> </td>
+                  <td style="--size: calc( 50 / 100 );"> <span class="data">  </span> </td>
+                  <td style="--size: calc( 75 / 100 );"> <span class="data">  </span> </td>
+                </tr>
+                <tr>
+                  <th scope="row"> Europe </th>
+                  <td style="--size: calc( 40 / 100 );"> <span class="data">  </span> </td>
+                  <td style="--size: calc( 60 / 100 );"> <span class="data">  </span> </td>
+                  <td style="--size: calc( 75 / 100 );"> <span class="data">  </span> </td>
+                  <td style="--size: calc( 90 / 100 );"> <span class="data">  </span> </td>
+                  <td style="--size: calc( 100 / 100 );"> <span class="data">  </span> </td>
+                </tr>
+              </tbody>
+            
+            </table>
+          </div>
+          <div class="col-12 col-md-6">
+            
+            <div class="box1">
+                <p class="fw-bold display-6"> Competitive Values <i class="fa-solid fa-database"></i></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim laborum eveniet praesentium corrupti quaerat iure ea a optio, doloremque, temporibus accusantium delectus veniam dolor est architecto dolore sint quasi obcaecati?</p>
+              </div>
+              
+            
+          </div>
+        </div>
+      </div>
+
       
-      <!-- Section 3 end -->
-
-
+      <!-- Data end -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2cf9866fd9.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
